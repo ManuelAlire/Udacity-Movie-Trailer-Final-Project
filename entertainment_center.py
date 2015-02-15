@@ -1,6 +1,7 @@
-import media
-import fresh_tomatoes
+import media          #Movie class object location
+import fresh_tomatoes #methods to create webpage and show instance objects on screen
 
+#create several Movie instances. Objects in title, storyline, gross global boxoffice, poster art location, and trailer url.
 interstellar = media.Movie("Intersellar",
                            "Mathew McConaughey goes into deep space for reasons, alright, alright, alright....",
                            "671,659,681",	
@@ -55,6 +56,6 @@ predator = media.Movie("Predator",
                        "http://upload.wikimedia.org/wikipedia/en/9/95/Predator_Movie.jpg",
                        "https://www.youtube.com/watch?v=Y1txEAywdiw")
 
-
+#create list of Movie object to pass to fresh_tomatoes method open_movies_page()
 movies = [interstellar, the_sunset_limited, full_metal_jacket, her, when_we_were_kings, predator, the_usual_suspects, blue_is_the_warmest_color, mean_girls]
 fresh_tomatoes.open_movies_page(movies)
