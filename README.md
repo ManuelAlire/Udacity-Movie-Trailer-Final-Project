@@ -1,6 +1,15 @@
 # Udacity-Movie-Trailer-Final-Project
 Udacity Full Stack Web Developer Movie Trailer Project.
 
+How To Use Run Project
+
+1. Run python 2.7 IDLE Gui
+2. open 'entertainment_center.py'
+3. select 'run' from the drop down menu then 'run module' or press (f5)
+5. after webpage lauches in web browser and loads, click on any movie poster image to view movie trailer.
+
+Code Explanation
+
 Project dynamically creates web page that displays users favorite Movies, including the ability to display movie trailer, poster art, global gross boxoffice receipts, and story line.
 
 fresh_tomatoes.py
